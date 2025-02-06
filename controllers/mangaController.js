@@ -1,52 +1,44 @@
 const Manga = require("../models/Manga");
 
-// Get all manga (with sorting)
-const getManga = async (req, res) => {
-  const { sort } = req.query;
-  let sortOption = {};
-  if (sort === "title") sortOption = { title: 1 };
-  if (sort === "rating") sortOption = { rating: -1 };
-  if (sort === "date") sortOption = { createdAt: -1 };
-
-  try {
-    const manga = await Manga.find().sort(sortOption);
-    res.status(200).json(manga);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
 // Add a new manga
-const addManga = async (req, res) => {
-  const { title, author, rating, description, image } = req.body;
+// create
+const addManga = async (manga) => {
   try {
-    const newManga = await Manga.create({ title, author, rating, description, image });
-    res.status(201).json(newManga);
+    const response = await fetch("http://localhost:5000/api/manga", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(manga),
+    });
+    if (!response.ok) throw new Error("Failed to add manga");
+    return await response.json();
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Error:", error);
   }
 };
 
-// Update a manga
+
+// Update a manga card
+// update
 const updateManga = async (req, res) => {
   const { id } = req.params;
   try {
     const updatedManga = await Manga.findByIdAndUpdate(id, req.body, { new: true });
-    res.status(200).json(updatedManga);
+    res.json(updatedManga);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.json({ message: error.message });
   }
 };
 
 // Delete a manga
+// delete
 const deleteManga = async (req, res) => {
   const { id } = req.params;
   try {
     await Manga.findByIdAndDelete(id);
-    res.status(200).json({ message: "Manga deleted successfully" });
+    res.json({ message: "Manga deleted successfully" });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.json({ message: error.message });
   }
 };
 
-module.exports = { getManga, addManga, updateManga, deleteManga };
+module.exports = { addManga, updateManga, deleteManga };
