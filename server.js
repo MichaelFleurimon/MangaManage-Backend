@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/", mangaRoutes);
+app.use('/api/manga', mangaRoutes);
 
 // New route to fetch data from Jikan API
 app.get("/api/jikan/:id", async (req, res) => {
