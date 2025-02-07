@@ -1,4 +1,4 @@
-const Manga = require("../models/Manga");
+const Manga = require("../models/manga");
 
 // Add a new manga
 // create

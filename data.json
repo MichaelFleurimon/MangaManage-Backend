@@ -1,0 +1,105 @@
+
+
+    [
+      {
+        "id": 1,
+        "title": "Naruto",
+        "author": "Masashi Kishimoto",
+        "genre": ["Action", "Adventure", "Fantasy"],
+        "description": "Naruto Uzumaki, a young ninja, seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+        "rating": 4.8,
+        "chapters": 700
+      },
+      {
+        "id": 2,
+        "title": "One Piece",
+        "author": "Eiichiro Oda",
+        "genre": ["Action", "Adventure", "Comedy"],
+        "description": "Monkey D. Luffy and his pirate crew explore the Grand Line in search of the ultimate treasure, the One Piece.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+        "rating": 4.9,
+        "chapters": 1050
+      },
+      {
+        "id": 3,
+        "title": "Attack on Titan",
+        "author": "Hajime Isayama",
+        "genre": ["Action", "Drama", "Horror"],
+        "description": "In a world where humanity lives in fear of giant humanoid creatures called Titans, Eren Yeager vows to eradicate them.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg",
+        "rating": 4.7,
+        "chapters": 139
+      },
+      {
+        "id": 4,
+        "title": "My Hero Academia",
+        "author": "Kohei Horikoshi",
+        "genre": ["Action", "Superhero", "School"],
+        "description": "Izuku Midoriya, a boy born without superpowers in a world full of them, dreams of becoming a hero.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/6/6f/My_Hero_Academia_Volume_1.png",
+        "rating": 4.6,
+        "chapters": 350
+      },
+      {
+        "id": 5,
+        "title": "Death Note",
+        "author": "Tsugumi Ohba",
+        "genre": ["Mystery", "Thriller", "Supernatural"],
+        "description": "Light Yagami finds a mysterious notebook that grants him the power to kill anyone whose name he writes in it.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg",
+        "rating": 4.8,
+        "chapters": 108
+      },
+      {
+        "id": 6,
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "author": "Koyoharu Gotouge",
+        "genre": ["Action", "Fantasy", "Historical"],
+        "description": "Tanjiro Kamado becomes a demon slayer to avenge his family and cure his sister, who has been turned into a demon.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg",
+        "rating": 4.7,
+        "chapters": 205
+      },
+      {
+        "id": 7,
+        "title": "Tokyo Ghoul",
+        "author": "Sui Ishida",
+        "genre": ["Horror", "Drama", "Supernatural"],
+        "description": "Ken Kaneki, a college student, becomes a half-ghoul after an encounter with one, and must navigate the dangerous world of ghouls and humans.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/6/6d/Tokyo_Ghoul_volume_1_cover.jpg",
+        "rating": 4.5,
+        "chapters": 144
+      },
+      {
+        "id": 8,
+        "title": "Fullmetal Alchemist",
+        "author": "Hiromu Arakawa",
+        "genre": ["Action", "Adventure", "Fantasy"],
+        "description": "Two brothers, Edward and Alphonse Elric, use alchemy to search for the Philosopher's Stone to restore their bodies after a failed experiment.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/7e/Fullmetal_Alchemist_volume_1.jpg",
+        "rating": 4.9,
+        "chapters": 108
+      },
+      {
+        "id": 9,
+        "title": "Bleach",
+        "author": "Tite Kubo",
+        "genre": ["Action", "Adventure", "Supernatural"],
+        "description": "Ichigo Kurosaki gains the powers of a Soul Reaper and must protect the living world from evil spirits and guide souls to the afterlife.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/72/Bleach_volume_1.jpg",
+        "rating": 4.6,
+        "chapters": 686
+      },
+      {
+        "id": 10,
+        "title": "Dragon Ball",
+        "author": "Akira Toriyama",
+        "genre": ["Action", "Adventure", "Comedy"],
+        "description": "Goku, a Saiyan warrior, embarks on adventures to find the Dragon Balls and protect Earth from powerful foes.",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/2/2a/Dragon_Ball_volume_1.png",
+        "rating": 4.7,
+        "chapters": 519
+      }
+    ]
+  
